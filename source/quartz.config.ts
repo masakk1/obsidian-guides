@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Mas' Lövely Guides",
-    pageTitleSuffix: "MasLG-",
+    pageTitleSuffix: "-MasLG",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -23,7 +23,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Dela Gothic One",
+        header: "Poppins",
         body: "Noto Sans",
         code: "Jetbrains Mono",
       },
